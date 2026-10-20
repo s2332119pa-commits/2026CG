@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ケーキ屋さん</title>
+
+    <style>
+        /* ページ全体 */
+        body {
+            background-color: #ffc0cb;
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        /* タイトル */
+        h1 {
+            color: #800000;
+            text-align: center;
+        }
+
+        /* お店の画像 */
+        .shop {
+            width: 100%;
+        }
+
+        .shop img {
+            width: 100%;
+            display: block;
+        }
+
+        /* ケーキを横並びにする */
+        .wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* ケーキ1つ分の領域 */
+        .cakes {
+            width: 50%;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        /* ケーキの画像 */
+        .cakes img {
+            width: 100%;
+            display: block;
+        }
+
+        /* ケーキの名前 */
+        h2 {
+            color: #800000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>ケーキ屋さん</h1>
+
+    <!-- お店の画像 -->
+    <div class="shop">
+        <img src="shop.jpg" alt="ケーキ屋さん">
+    </div>
+
+    <!-- ケーキ一覧 -->
+    <div class="wrap">
+
+        <!-- ケーキ1 -->
+        <div class="cakes">
+            <h2>ショートケーキ</h2>
+            <img src="cake01.jpg" alt="ショートケーキ">
+        </div>
+
+        <!-- ケーキ2 -->
+        <div class="cakes">
+            <h2>モンブラン</h2>
+            <img src="cake02.jpg" alt="モンブラン">
+        </div>
+
+        <!-- ケーキ3 -->
+        <div class="cakes">
+            <h2>ザッハトルテ</h2>
+            <img src="cake03.jpg" alt="ザッハトルテ">
+        </div>
+
+        <!-- ケーキ4 -->
+        <div class="cakes">
+            <h2>シュークリーム</h2>
+            <img src="cake04.jpg" alt="シュークリーム">
+        </div>
+
+    </div>
+
+</body>
+</html>
